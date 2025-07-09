@@ -51,7 +51,7 @@ export const Navbar = () => {
       className={`h-20 flex border-b justify-between font-medium bg-white ${poppins.className}`}
     >
       <Link href="/" className="pl-6 flex items-center">
-        <span className={cn("text-5xl font-extrabold leading-tight")}>OnzaMarket</span>
+        <span className={cn("text-5xl font-extrabold leading-tight")}>Onza</span>
       </Link>
 
       <NavbarSidebar
