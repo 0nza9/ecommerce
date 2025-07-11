@@ -25,6 +25,6 @@ export const Categories: CollectionConfig = {
       relationTo: 'categories',
       hasMany: false,
     },
-    // Pas de champ "subcategories" ici
+    
   ],
 };
