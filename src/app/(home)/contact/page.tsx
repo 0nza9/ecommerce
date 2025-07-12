@@ -27,7 +27,7 @@ const Page = () => {
       </div>
 
       <div className="mt-8">
-        <a href="/CV.pdf" download>
+        <a href="/CV informatique.pdf" download>
           <Button
             variant="elevated"
             className="border border-black transition-transform duration-300 hover:scale-105 hover:bg-black hover:text-white"
