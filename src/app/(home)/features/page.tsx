@@ -47,7 +47,7 @@ const Page = () => {
        
         <div className="relative mt-16 flex justify-center">
           <img
-            src="https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif" 
+            src="3df13b28ecbb8e9d8020a93d30ee0868.gif" 
             alt="Gif indicateur"
             className="w-48 h-48 object-contain"
           />
