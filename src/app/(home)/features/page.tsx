@@ -1,17 +1,14 @@
 const features = [
   {
     title: "Fluide et léger",
-    description: "Une expérience douce, comme un rêve éveillé.",
     icon: "🕊️",
   },
   {
     title: "Transparence absolue",
-    description: "Une interface limpide, sans friction ni bruit.",
     icon: "🌫️",
   },
   {
     title: "Énergie subtile",
-    description: "Des interactions qui respirent la poésie.",
     icon: "✨",
   },
 ];
