@@ -5,7 +5,12 @@ const Page = () => {
             <img 
                 src="/bdaa88c9edba6d3af2c25c5b32791ac0.jpg" 
                 alt="Abstrait" 
-                style={{ maxWidth: "100%", height: "auto", borderRadius: "12px" }}
+                style={{ 
+                    maxWidth: "100%", 
+                    height: "auto", 
+                    borderRadius: "12px", 
+                    border: "2px solid black"  
+                }}
             />
         </div>
     );
