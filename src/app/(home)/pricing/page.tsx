@@ -1,16 +1,16 @@
 const Page = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
-      
+      {/* Image de fond subtile */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="/d82f759105d6d95940420f255f95c649.jpg" 
+          src="/background.jpg" // remplace par le nom exact de l'image dans /public
           alt="Background"
           className="w-full h-full object-cover opacity-10 blur-sm"
         />
       </div>
 
-      <div className="p-10 text-gray-800 text-3xl font-light">
+      <div className="p-10 text-white text-3xl font-light">
         Pricing Page
       </div>
     </div>
