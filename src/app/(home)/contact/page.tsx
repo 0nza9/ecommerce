@@ -17,13 +17,15 @@ const Page = () => {
           </p>
         </div>
 
-        {/* Image violette modifiée pour effet flottant */}
-        <div className="transform -rotate-6 translate-x-8 -translate-y-4 transition-all duration-500">
+        {/* Image violette avec effet de flottement et traînée */}
+        <div className="relative transform -rotate-6 translate-x-8 -translate-y-4 transition-all duration-500">
           <img
             src="/cf5e04b3cd7fabef7a3167b99250e017.jpg"
             alt="Image 2"
-            className="max-w-[300px] border-4 border-violet-300 rounded-lg p-1 shadow-xl"
+            className="relative z-10 max-w-[300px] border-4 border-violet-300 rounded-lg p-1 shadow-xl"
           />
+          {/* Traînée en bas à gauche */}
+          <div className="absolute bottom-2 left-2 w-32 h-4 bg-violet-300 blur-sm rotate-12 opacity-60 rounded-full -z-0"></div>
         </div>
       </div>
 
