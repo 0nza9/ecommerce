@@ -1,10 +1,10 @@
 const Page = () => {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen overflow-hidden">
       
       <div className="absolute inset-0 -z-10">
         <img
-          src="d82f759105d6d95940420f255f95c649.jpg" 
+          src="/d82f759105d6d95940420f255f95c649.jpg" 
           alt="Background"
           className="w-full h-full object-cover opacity-10 blur-sm"
         />
