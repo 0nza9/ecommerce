@@ -22,7 +22,6 @@ const Page = () => {
         <div className="absolute w-72 h-72 bg-pink-300 opacity-10 rounded-full blur-2xl bottom-0 right-20 animate-ping" />
       </div>
 
-      {/* Contenu principal */}
       <div className="relative z-10 max-w-5xl mx-auto text-center">
         <h1 className="text-4xl font-extralight text-purple-700 mb-12 tracking-wide">
           Fonctionnalités Éthérées
@@ -34,11 +33,24 @@ const Page = () => {
               key={i}
               className="bg-white/50 backdrop-blur-md rounded-3xl p-6 shadow-2xl hover:scale-105 transition-transform duration-300 border border-white/30"
             >
-              <div className="text-5xl mb-4">{feat.icon}</div>
-              <h2 className="text-xl font-semibold text-purple-600 mb-2">{feat.title}</h2>
-              <p className="text-sm text-gray-700">{feat.description}</p>
+              <div className="text-6xl mb-4">{feat.icon}</div>
+              <h2 className="text-xl font-semibold text-purple-600">{feat.title}</h2>
             </div>
           ))}
+        </div>
+
+        <div className="relative mt-16 flex flex-col items-center space-y-2">
+          <div className="flex space-x-4 animate-bounce">
+            <span className="text-4xl text-purple-600">⬇️</span>
+            <span className="text-4xl text-purple-600">⬇️</span>
+            <span className="text-4xl text-purple-600">⬇️</span>
+          </div>
+
+          <img
+            src="3df13b28ecbb8e9d8020a93d30ee0868.gif" // Remplace par ton gif si besoin
+            alt="Gif indicateur"
+            className="w-32 h-32 object-contain"
+          />
         </div>
       </div>
     </div>
