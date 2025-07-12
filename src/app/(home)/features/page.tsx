@@ -1,16 +1,16 @@
 const features = [
   {
-    title: "Fluide et léger",
+    title: "Une expérience douce",
     description: "Une expérience douce",
     icon: "🕊️",
   },
   {
-    title: "Transparence absolue",
+    title: "Une interface",
     description: "Une interface",
     icon: "🌫️",
   },
   {
-    title: "Énergie subtile",
+    title: "la poésie.",
     description: "la poésie.",
     icon: "✨",
   },
